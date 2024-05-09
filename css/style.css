@@ -421,8 +421,18 @@ footer div ul li {
         padding: 0 20px;
     }
 
+    span {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
     .search-form {
-        justify-content: center;
+        padding: 0 20px;
+    }
+
+    .search-form input {
+        font-weight: bold;
     }
 
     .search-form button {
