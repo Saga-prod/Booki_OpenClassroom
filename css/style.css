@@ -40,7 +40,7 @@ img {
 }
 
 .nav-bar img {
-    width: 8em;
+    width: 5em;
     padding: 2em 0;
 }
 
@@ -99,10 +99,6 @@ a {
     background-color: var(--main-color);
     padding: 1em;
     height: 106%;
-}
-
-#city-search {
-    width: 100%;
 }
 
 .hidden-button {
