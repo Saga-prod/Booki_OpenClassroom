@@ -501,6 +501,10 @@ footer div ul li {
         height: 11em;
     }
 
+    .activites-cards .card {
+        height: 230px;
+    }
+
     footer {
         flex-direction: column;
     }
