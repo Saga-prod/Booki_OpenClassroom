@@ -137,7 +137,6 @@ a {
 }
 
 .bulle-info {
-    /* align-items: center; */
     margin-bottom: 40px;
 }
 
@@ -206,7 +205,6 @@ a {
 
 .hebergements-cards a {
     display: flex;
-    /* flex-wrap: wrap; */
     width: 30%;
 }
 
@@ -302,7 +300,6 @@ a {
 .activites-cards a {
     width: 23%;
     margin-top: 33px;
-    /* height: 100%; */
 }
 
 .activites-cards .card {
@@ -343,6 +340,17 @@ footer div ul li {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filtres p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .filtres {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1em;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -372,6 +380,10 @@ footer div ul li {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites-cards .card img {
+        height: 12em;
     }
 }
 
