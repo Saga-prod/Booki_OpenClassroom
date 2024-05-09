@@ -101,6 +101,10 @@ a {
     height: 106%;
 }
 
+#city-search {
+    width: 100%;
+}
+
 .hidden-button {
     display: none;
 }
